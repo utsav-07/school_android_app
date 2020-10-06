@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Aurora Public School</string>
+    <string name="about_us">About Us</string>
+    <string name="home">Home</string>
+    <string name="teacher_section">Teacher Section</string>
+    <string name="student_section">Student Section</string>
+    <string name="our_staff">Gallery</string>
+    <string name="our_schoolstaff">Our Staff</string>
+    <string name="notification_section">Downloads</string>
+    <string name="upload_image">Upload Events Pics</string>
+    <string name="admin_section">Admin Section</string>
+    <string name="attendence_section">Take Attendance</string>
+
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+
+</resources>

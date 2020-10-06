@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact_Us_Mail">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#74FA79" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:id="@+id/header"
+            android:layout_marginTop="59sp"
+            android:orientation="vertical"
+            android:background="@drawable/header">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Enquiry Form"
+                android:textStyle="bold"
+                android:textSize="45dp"
+                android:fontFamily="cursive"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/header"
+            android:padding="15dp"
+            android:layout_marginTop="250dp"
+            android:gravity="center_horizontal">
+
+           <!--<com.google.android.material.textfield.TextInputLayout
+              android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:errorEnabled="true">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text="utsavudit07@gmail.com"
+                    android:id="@+id/edit_text_to"/>
+
+           </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Subject"
+                    android:inputType="text"
+                    android:id="@+id/edit_text_subject"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/itemlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    android:hint="Message"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            <Button
+                android:id="@+id/button_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:textColor="@android:color/white"
+                android:background="@color/color2"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#74FA79"
+        app:headerLayout="@layout/nav_header_layout"
+        app:menu="@menu/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

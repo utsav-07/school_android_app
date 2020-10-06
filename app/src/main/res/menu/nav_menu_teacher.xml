@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/item1"
+                android:title="@string/home"
+                android:icon="@drawable/ic_home_black_24dp" />
+
+            <item
+                android:id="@+id/item10"
+                android:title="@string/about_us"
+                android:icon="@drawable/ic_group_add_black_24dp" />
+            <item
+                android:id="@+id/item2"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="@string/teacher_section" />
+            <item
+                android:id="@+id/item3"
+                android:icon="@drawable/ic_face_black_24dp"
+                android:title="@string/student_section" />
+            <item
+                android:id="@+id/item4"
+                android:icon="@drawable/ic_camera_alt_black_24dp"
+                android:title="@string/our_staff" />
+
+            <item
+                android:id="@+id/item12"
+                android:icon="@drawable/ic_group_add_black_24dp"
+                android:title="@string/our_schoolstaff" />
+
+        </menu>
+    </item>
+
+    <item android:title="Teachers Activity">
+        <menu>
+            <item
+                android:id="@+id/item7"
+
+                android:title="Upload Result"
+                android:icon="@drawable/ic_library_books_black_24dp"/>
+            <item
+                android:id="@+id/item8"
+
+                android:title="Send Notification"
+                android:icon="@drawable/ic_file_upload_black_24dp"/>
+            <item
+                android:id="@+id/item9"
+                android:icon="@drawable/ic_delete_black_24dp"
+                android:title="Delete Notification" />
+
+            <item
+                android:id="@+id/item11"
+                android:icon="@drawable/ic_add_a_photo_black_24dp"
+                android:title="@string/upload_image" />
+
+            <item
+                android:id="@+id/item13"
+                android:icon="@drawable/ic_perm_identity_black_24dp"
+                android:title="@string/attendence_section" />
+
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/item5"
+                android:icon="@drawable/ic_message_black_24dp"
+                android:title="@string/notification_section" />
+            <item
+                android:id="@+id/item6"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+
+
+</menu>

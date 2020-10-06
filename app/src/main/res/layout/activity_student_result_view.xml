@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FBE7E7"
+    tools:context=".StudentResultView">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="70dp">
+
+
+        <TableRow
+            android:paddingRight="50dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Student Result Section"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Class_Section"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/class_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:digits="0123456789ABCDEFGIJKLMNOPQRSTUVWXYZ"
+                android:hint="example: 9A" />
+        </TableRow>
+
+        <TableRow android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="RollNo"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/rollno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:hint="roll no"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Year"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Semester"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <Spinner
+                android:id="@+id/spinnersemester"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- <EditText
+                 android:id="@+id/semester"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:width="100px" />-->
+        </TableRow>
+
+        <!-- <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="subj" />
+
+
+            <Spinner
+                android:id="@+id/spinnersubject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+
+            &lt;!&ndash;  <EditText
+                  android:id="@+id/subj"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:width="100px" />&ndash;&gt;
+        </TableRow>-->
+
+        <!--  <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="marks" />
+
+            <EditText
+                android:id="@+id/marks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px" />
+        </TableRow>-->
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="20dp" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <Button
+                android:id="@+id/btnSave"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:paddingTop="30dp"
+                android:paddingBottom="20dp"
+                android:text="VIEW YOUR RESULT" />
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

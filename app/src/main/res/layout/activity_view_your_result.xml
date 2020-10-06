@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FBE7E7"
+    tools:context=".viewYourResult">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="30dp"
+        android:paddingTop="70dp">
+
+        <!--<TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+
+
+    </TableRow>-->
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:width="100px"
+                android:background="@color/colorAccent"
+                android:text="Students Details"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:background="@color/colorAccent"
+                android:text=""
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200px"
+
+                android:text="student name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/studentname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Name" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Class sec"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/class_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="class" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:width="100px"
+                android:text="Roll no"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rollno"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="rollno" />
+
+
+        </TableRow>
+
+        /*-----------------------------*/
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:width="100px"
+                android:text="Year"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="year" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:width="100px"
+                android:text="Semester"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/semester"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="semester" />
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:width="100px"
+                android:background="@color/colorAccent"
+                android:text="Subject"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:background="@color/colorAccent"
+                android:text="Marks"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+
+            <TextView
+
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Math Marks"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Math_Marks" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Science Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/science"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Science Marks" />
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="SSC Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/ssc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="SSC" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="English Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="English Marks" />
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Hindi Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Hindi Marks" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Sanskrit Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/sanskrit"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="Sanskrit Marks" />
+        </TableRow>
+
+        /*------------------*/
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Computer Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/computer"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="computer" />
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="GK Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/gk"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="gk" />
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Drawing Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/drawing"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="drawing" />
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Fair Copy"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/faircopy"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="fair copy" />
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="100px"
+                android:text="Project Marks"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/project"
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="project" />
+        </TableRow>
+
+
+    </TableLayout>
+</RelativeLayout>

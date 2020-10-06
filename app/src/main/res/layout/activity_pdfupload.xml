@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE7E7"
+
+    android:orientation="vertical"
+    tools:context=".Pdfupload">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Name For PDF" />
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="25dp"
+        android:text="Note: - Please upload your file."
+
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="25dp"
+        android:text="Step-1 : Click on select button to choose file."
+
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:text="Step-2 : Give File Name and then click on Upload Button."
+
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
